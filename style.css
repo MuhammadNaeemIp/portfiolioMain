@@ -329,14 +329,18 @@ nav ul li a:hover::after {
 .btn.btn2 {
     display: inline-block;
     background: #ff004f;
+    cursor: pointer;
+    transition: background-color 0.10s;
+}
+.btn.btn2:active {
+    background-color: #45a049;
 }
 
 .contact-right form {
     width: 100%;
 }
 
-form input,
-form textarea {
+form input,form textarea {
     width: 100%;
     border: 0;
     outline: none;
